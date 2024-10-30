@@ -1,0 +1,115 @@
+[2024-10-30 16:40:13 UTC] vlib work && vlog '-timescale' '1ns/1ns' design.sv testbench.sv  && vsim -c -do "vsim +access+r; run -all; exit"  
+VSIMSA: Configuration file changed: `/home/runner/library.cfg'
+ALIB: Library "work" attached.
+work = /home/runner/work/work.lib
+MESSAGE "Unit top modules: tb."
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+done
+# Aldec, Inc. Riviera-PRO version 2023.04.112.8911 built for Linux64 on May 12, 2023.
+# HDL, SystemC, and Assertions simulator, debugger, and design environment.
+# (c) 1999-2023 Aldec, Inc. All rights reserved.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library '/usr/share/Riviera-PRO/bin/libsystf.so'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.1 [s]
+# SLP: Finished : 0.1 [s]
+# SLP: 0 primitives and 9 (81.82%) other processes in SLP
+# SLP: 18 (4.89%) signals in SLP and 32 (8.70%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Riviera-PRO EDU Edition. The performance of simulation is reduced.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5603 kB (elbread=459 elab2=4978 kernel=166 sdf=0)
+# KERNEL: ASDB file was created in location /home/runner/dataset.asdb
+# KERNEL: ----------------------------------------
+# KERNEL: [DRV] : DUT RESET DONE
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] : Oper : read Din : 88
+# KERNEL: [DRV] : DATA RCVD : 1100010 - 1
+# KERNEL: [MON] : DATA RCVD RX 1100010 - 1
+# KERNEL: [SCO] : DRV : 1100010 - 1 MON : 1100010 - 1
+# KERNEL: DATA MATCHED
+# KERNEL: PARITY MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] : Oper : write Din : 10
+# KERNEL: [DRV] : DATA SENT : 1010 - 1
+# KERNEL: [MON] : DATA SEND TX 1010 - 1
+# KERNEL: [SCO] : DRV : 1010 - 1 MON : 1010 - 1
+# KERNEL: DATA MATCHED
+# KERNEL: PARITY MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] : Oper : write Din : 39
+# KERNEL: [DRV] : DATA SENT : 100111 - 1
+# KERNEL: [MON] : DATA SEND TX 100111 - 1
+# KERNEL: [SCO] : DRV : 100111 - 1 MON : 100111 - 1
+# KERNEL: DATA MATCHED
+# KERNEL: PARITY MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] : Oper : read Din : 254
+# KERNEL: [DRV] : DATA RCVD : 11100000 - 0
+# KERNEL: [MON] : DATA RCVD RX 11100000 - 0
+# KERNEL: [SCO] : DRV : 11100000 - 0 MON : 11100000 - 0
+# KERNEL: DATA MATCHED
+# KERNEL: PARITY MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] : Oper : write Din : 173
+# KERNEL: [DRV] : DATA SENT : 10101101 - 0
+# KERNEL: [MON] : DATA SEND TX 10101101 - 0
+# KERNEL: [SCO] : DRV : 10101101 - 0 MON : 10101101 - 0
+# KERNEL: DATA MATCHED
+# KERNEL: PARITY MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] : Oper : read Din : 104
+# KERNEL: [DRV] : DATA RCVD : 1101000 - 0
+# KERNEL: [MON] : DATA RCVD RX 1101000 - 0
+# KERNEL: [SCO] : DRV : 1101000 - 0 MON : 1101000 - 0
+# KERNEL: DATA MATCHED
+# KERNEL: PARITY MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] : Oper : read Din : 186
+# KERNEL: [DRV] : DATA RCVD : 1001000 - 0
+# KERNEL: [MON] : DATA RCVD RX 1001000 - 0
+# KERNEL: [SCO] : DRV : 1001000 - 0 MON : 1001000 - 0
+# KERNEL: DATA MATCHED
+# KERNEL: PARITY MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] : Oper : write Din : 206
+# KERNEL: [DRV] : DATA SENT : 11001110 - 0
+# KERNEL: [MON] : DATA SEND TX 11001110 - 0
+# KERNEL: [SCO] : DRV : 11001110 - 0 MON : 11001110 - 0
+# KERNEL: DATA MATCHED
+# KERNEL: PARITY MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] : Oper : write Din : 180
+# KERNEL: [DRV] : DATA SENT : 10110100 - 1
+# KERNEL: [MON] : DATA SEND TX 10110100 - 1
+# KERNEL: [SCO] : DRV : 10110100 - 1 MON : 10110100 - 1
+# KERNEL: DATA MATCHED
+# KERNEL: PARITY MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] : Oper : read Din : 53
+# KERNEL: [DRV] : DATA RCVD : 11011010 - 0
+# KERNEL: [MON] : DATA RCVD RX 11011010 - 0
+# KERNEL: [SCO] : DRV : 11011010 - 0 MON : 11011010 - 0
+# KERNEL: DATA MATCHED
+# KERNEL: PARITY MATCHED
+# KERNEL: ----------------------------------------
+# RUNTIME: Info: RUNTIME_0068 testbench.sv (375): $finish called.
+# KERNEL: Time: 287250 ns,  Iteration: 1,  Instance: /tb,  Process: @INITIAL#422_2@.
+# KERNEL: stopped at time: 287250 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: Simulation has finished.
+Done

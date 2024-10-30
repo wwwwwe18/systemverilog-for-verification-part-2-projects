@@ -1,0 +1,75 @@
+[2024-10-29 18:46:36 UTC] vlib work && vlog '-timescale' '1ns/1ns' design.sv testbench.sv  && vsim -c -do "vsim +access+r; run -all; exit"  
+VSIMSA: Configuration file changed: `/home/runner/library.cfg'
+ALIB: Library "work" attached.
+work = /home/runner/work/work.lib
+MESSAGE "Unit top modules: tb."
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+done
+# Aldec, Inc. Riviera-PRO version 2023.04.112.8911 built for Linux64 on May 12, 2023.
+# HDL, SystemC, and Assertions simulator, debugger, and design environment.
+# (c) 1999-2023 Aldec, Inc. All rights reserved.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library '/usr/share/Riviera-PRO/bin/libsystf.so'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.1 [s]
+# SLP: Finished : 0.1 [s]
+# SLP: 0 primitives and 9 (81.82%) other processes in SLP
+# SLP: 17 (4.63%) signals in SLP and 32 (8.72%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Riviera-PRO EDU Edition. The performance of simulation is reduced.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5598 kB (elbread=459 elab2=4973 kernel=165 sdf=0)
+# KERNEL: ASDB file was created in location /home/runner/dataset.asdb
+# KERNEL: ----------------------------------------
+# KERNEL: [DRV] : DUT RESET DONE
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] : Oper : read Din : 88
+# KERNEL: [DRV] : DATA RCVD : 98
+# KERNEL: [MON] : DATA RCVD RX 98
+# KERNEL: [SCO] : DRV : 98 MON : 98
+# KERNEL: DATA MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] : Oper : write Din : 10
+# KERNEL: [DRV] : DATA SENT : 10
+# KERNEL: [MON] : DATA SEND TX 10
+# KERNEL: [SCO] : DRV : 10 MON : 10
+# KERNEL: DATA MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] : Oper : write Din : 39
+# KERNEL: [DRV] : DATA SENT : 39
+# KERNEL: [MON] : DATA SEND TX 39
+# KERNEL: [SCO] : DRV : 39 MON : 39
+# KERNEL: DATA MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] : Oper : read Din : 254
+# KERNEL: [DRV] : DATA RCVD : 224
+# KERNEL: [MON] : DATA RCVD RX 224
+# KERNEL: [SCO] : DRV : 224 MON : 224
+# KERNEL: DATA MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] : Oper : write Din : 173
+# KERNEL: [DRV] : DATA SENT : 173
+# KERNEL: [MON] : DATA SEND TX 173
+# KERNEL: [SCO] : DRV : 173 MON : 173
+# KERNEL: DATA MATCHED
+# KERNEL: ----------------------------------------
+# RUNTIME: Info: RUNTIME_0068 testbench.sv (356): $finish called.
+# KERNEL: Time: 138850 ns,  Iteration: 1,  Instance: /tb,  Process: @INITIAL#403_2@.
+# KERNEL: stopped at time: 138850 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: Simulation has finished.
+Done
