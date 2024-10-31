@@ -1,0 +1,105 @@
+[2024-10-31 16:14:55 UTC] vlib work && vlog '-timescale' '1ns/1ns' design.sv testbench.sv  && vsim -c -do "vsim +access+r; run -all; exit"  
+VSIMSA: Configuration file changed: `/home/runner/library.cfg'
+ALIB: Library "work" attached.
+work = /home/runner/work/work.lib
+MESSAGE "Unit top modules: tb."
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 1[s]."
+done
+# Aldec, Inc. Riviera-PRO version 2023.04.112.8911 built for Linux64 on May 12, 2023.
+# HDL, SystemC, and Assertions simulator, debugger, and design environment.
+# (c) 1999-2023 Aldec, Inc. All rights reserved.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library '/usr/share/Riviera-PRO/bin/libsystf.so'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.1 [s]
+# SLP: Finished : 0.1 [s]
+# SLP: 0 primitives and 8 (80.00%) other processes in SLP
+# SLP: 20 (5.71%) signals in SLP and 21 (6.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Riviera-PRO EDU Edition. The performance of simulation is reduced.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5579 kB (elbread=459 elab2=4956 kernel=163 sdf=0)
+# KERNEL: ASDB file was created in location /home/runner/dataset.asdb
+# KERNEL: ----------------------------------------
+# KERNEL: [DRV] : DUT RESET DONE
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] DIN : 935
+# KERNEL: [DRV] : DATA SENT TO DAC: 935
+# KERNEL: [MON] : DATA SEND 935
+# KERNEL: [SCO] : DRV : 935 MON : 935
+# KERNEL: DATA MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] DIN : 4060
+# KERNEL: [DRV] : DATA SENT TO DAC: 4060
+# KERNEL: [MON] : DATA SEND 4060
+# KERNEL: [SCO] : DRV : 4060 MON : 4060
+# KERNEL: DATA MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] DIN : 3576
+# KERNEL: [DRV] : DATA SENT TO DAC: 3576
+# KERNEL: [MON] : DATA SEND 3576
+# KERNEL: [SCO] : DRV : 3576 MON : 3576
+# KERNEL: DATA MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] DIN : 3153
+# KERNEL: [DRV] : DATA SENT TO DAC: 3153
+# KERNEL: [MON] : DATA SEND 3153
+# KERNEL: [SCO] : DRV : 3153 MON : 3153
+# KERNEL: DATA MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] DIN : 606
+# KERNEL: [DRV] : DATA SENT TO DAC: 606
+# KERNEL: [MON] : DATA SEND 606
+# KERNEL: [SCO] : DRV : 606 MON : 606
+# KERNEL: DATA MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] DIN : 1125
+# KERNEL: [DRV] : DATA SENT TO DAC: 1125
+# KERNEL: [MON] : DATA SEND 1125
+# KERNEL: [SCO] : DRV : 1125 MON : 1125
+# KERNEL: DATA MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] DIN : 1972
+# KERNEL: [DRV] : DATA SENT TO DAC: 1972
+# KERNEL: [MON] : DATA SEND 1972
+# KERNEL: [SCO] : DRV : 1972 MON : 1972
+# KERNEL: DATA MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] DIN : 1485
+# KERNEL: [DRV] : DATA SENT TO DAC: 1485
+# KERNEL: [MON] : DATA SEND 1485
+# KERNEL: [SCO] : DRV : 1485 MON : 1485
+# KERNEL: DATA MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] DIN : 4067
+# KERNEL: [DRV] : DATA SENT TO DAC: 4067
+# KERNEL: [MON] : DATA SEND 4067
+# KERNEL: [SCO] : DRV : 4067 MON : 4067
+# KERNEL: DATA MATCHED
+# KERNEL: ----------------------------------------
+# KERNEL: [GEN] DIN : 3991
+# KERNEL: [DRV] : DATA SENT TO DAC: 3991
+# KERNEL: [MON] : DATA SEND 3991
+# KERNEL: [SCO] : DRV : 3991 MON : 3991
+# KERNEL: DATA MATCHED
+# KERNEL: ----------------------------------------
+# RUNTIME: Info: RUNTIME_0068 testbench.sv (290): $finish called.
+# KERNEL: Time: 65970 ns,  Iteration: 2,  Instance: /tb,  Process: @INITIAL#334_3@.
+# KERNEL: stopped at time: 65970 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: Simulation has finished.
+Done
